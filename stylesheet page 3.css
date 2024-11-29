@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-style: normal;
+}
+
+/* Body Styling */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* Header Styling */
+header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+header img {
+    width: 300px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Content Styling */
+div {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: start;
+}
+
+#clock {
+    font-size: 2em;
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid blueviolet;
+    background-color: whitesmoke;
+    color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+    font-style: normal;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Mode Gelap */
+.dark-mode {
+    background-color: #333;
+    color: #f5f5f5; /* Warna teks menjadi terang */
+}
+
+/* Pastikan elemen lain juga berubah */
+.dark-mode header,
+.dark-mode div,
+.dark-mode footer {
+    background-color: #444;
+    color: #f5f5f5; /* Warna teks untuk elemen kontainer */
+}
+
+/* Pastikan teks pada <details> dan <summary> berubah */
+.dark-mode details summary {
+    color: #f5f5f5;
+}
+
+.dark-mode details p {
+    background-color: #555;
+    color: #f5f5f5;
+}
+
+/* Gaya tombol dalam mode gelap */
+.dark-mode button {
+    background-color: #555;
+    color: #f5f5f5;
+}
+
+.dark-mode button:hover {
+    background-color: #777;
+}
+
+/* Gaya tautan */
+.dark-mode a {
+    color: #1e90ff; /* Biru terang untuk teks tautan */
+}
+
+.dark-mode a:hover {
+    color: #87cefa; /* Warna lebih terang saat hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+main{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+button{
+background-color: whitesmoke;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
